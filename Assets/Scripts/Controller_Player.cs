@@ -8,7 +8,7 @@ public class Controller_Player : MonoBehaviour
     private int i = 0;
     private bool floored;
     private int jumps= 0;
-    private bool invencible;
+    private bool invencible=false;
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
